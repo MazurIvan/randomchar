@@ -1,0 +1,57 @@
+body {
+    background: no-repeat url(snow-capped-mountains-castle-3d-rendering.jpg);
+    margin: 0;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    padding: 50px 50px;
+    background: linear-gradient(to bottom right, rgb(41, 38, 38), 80%, rgb(125, 122, 161));
+    border-radius: 20px;
+    color: antiquewhite;
+    box-shadow: 10px 10px 20px black;
+}
+.container h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.container p {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    background: linear-gradient(to bottom right, rgb(41, 38, 38), 80%, rgb(125, 122, 161));
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+.image p {
+    margin: 1em auto;
+    padding: 40px 70px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:antiquewhite;
+}
+.image img {
+    width: 35%;
+    margin: 2em auto;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: antiquewhite;
+    font-size: 30px;
+}
